@@ -21,3 +21,13 @@
 - git
 - python
 
+### debian apt国内源
+
+- https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/
+- raspberry os is not fully supported by debian apt source
+
+### docker in raspberry
+https://www.cnblogs.com/kasnti/p/11833778.html
+
+- `curl -fsSL https://get.docker.com -o get-docker.sh`
+- `sudo usermod -aG docker $USER`
